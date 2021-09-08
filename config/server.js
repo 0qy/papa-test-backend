@@ -6,4 +6,5 @@ module.exports = ({ env }) => ({
       secret: env('ADMIN_JWT_SECRET', 'd08303802d5545fce0c9035ba809f1b3'),
     },
   },
+  url: env('https://shrouded-ocean-72301.herokuapp.com/'),
 });
